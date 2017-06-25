@@ -20,12 +20,8 @@
     </div>
 
     <div class="forecast-flex">
-    <div ng-repeat="w in weatherResult.list">
-        <!-- <div class="row"> -->
-            <!-- <div class="col-md-12"> -->
-                <weather-report weather-day="w" convert-to-standard="convertToFahrenheit(daytimeTemp)" convert-to-date="convertToDate(dt)" date-format="MMMM d, y"></weather-report>
-            <!-- </div> -->
-        <!-- </div> -->
-    </div>
+        <div ng-repeat="w in weatherResult.list">
+            <weather-report weather-day="w" convert-to-standard="convertToFahrenheit(daytimeTemp)" convert-to-date="convertToDate(dt)" date-format="MMMM d, y"></weather-report>
+        </div>
     </div>
 </div>
