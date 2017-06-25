@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfd;
+    color: #484848;
+}
+.navbar {
+    background-color: #347fc4;
+    border-color: #347fc4;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover{
+    color: #FFF;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+.navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover  {
+    color: #FFF;
+}
+.hero {
+    background-color: #70a5d5;
+    padding: 5% 0;
+}
+.hero-content {
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    padding: 4% 10%;
+}
+.hero-content h1 {
+    font-size: 35px;
+    letter-spacing: 0.4px;
+}
+.hero-content h4 {
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+.hero-content hr {
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.forecast-submit-btn {
+    border-radius: 35px;
+    padding: 6px 35px;
+    background-color: #347fc4;
+    border-color: #347fc4;
+    letter-spacing: .4px;
+}
+.about-page {
+    padding-bottom: 150px;
+}
+.header {
+    background-color: #70a5d5;
+    padding: 2% 0;
+    color: #FFF;
+}
+.header p {
+    margin-bottom: 0;
+}
+.header h3 {
+    font-weight: 700;
+}
+.btn-active-days, .btn-active-days:hover {
+    background-color: #347fc4;
+    border-color: #347fc4;
+}
+.btn-active-days a {
+    color: #FFF;
+}
+.btn-group-dayselect {
+    margin: 30px 0px;
+}
+.forecast-flex {
+    display: flex;
+    justify-content: center;
+}
+.forecast-flex > div {
+    padding: 5px;
+}
+.forecast-flex div.panel {
+    height: 250px;
+}
+.forecast-flex .panel-heading {
+    background-color: #347fc4;
+    border-color: #347fc4;
+    color: #FFF;
+}
+.temperature {
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+<div class="header">
+    <div class="container">
+        <h3 class="pull-right">Forecast for {{ city }}</h3>
+    </div>
+</div>
+
+<div class="container">
+    <div class="text-center">
+        <div class="btn-group btn-group-dayselect" role="group" aria-label="...">
+            <button type="button" class="btn btn-default" ng-class="{'btn-active-days': days === '2'}">
+                <a href="#/forecast/2">2 days</a>
+            </button>
+            <button type="button" class="btn btn-default" ng-class="{'btn-active-days': days === '5'}">
+                <a href="#/forecast/5">5 days</a>
+            </button>
+            <button type="button" class="btn btn-default" ng-class="{'btn-active-days': days === '7'}">
+                <a href="#/forecast/7">7 days</a>
+            </button>
+        </div>
+    </div>
+
+    <div class="forecast-flex">
+    <div ng-repeat="w in weatherResult.list">
+        <!-- <div class="row"> -->
+            <!-- <div class="col-md-12"> -->
+                <weather-report weather-day="w" convert-to-standard="convertToFahrenheit(daytimeTemp)" convert-to-date="convertToDate(dt)" date-format="MMMM d, y"></weather-report>
+            <!-- </div> -->
+        <!-- </div> -->
+    </div>
+    </div>
+</div>
